@@ -35,13 +35,13 @@ library
 
   build-depends:
       base >=4.12 && <=5.0
-    , bytestring >=0.10.6.0 && <0.12.0
+    , bytestring >=0.10.6.0 && <0.16.0
     , cereal >= 0.5.1 && <0.6
     , containers >=0.5 && < 0.7
     , deepseq ==1.4.*
     , hashable <1.5
     , parameterized >=0.5.0.0 && <1
-    , primitive >=0.6.4 && <0.8
+    , primitive >=0.6.4 && <0.9
     , safe ==0.3.*
     , template-haskell >= 2.15.0 && < 2.20
     , text >= 0.2 && <2.1
